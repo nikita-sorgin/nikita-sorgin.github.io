@@ -200,7 +200,7 @@ h1 span:nth-child(2) { color: transparent; -webkit-text-stroke: 1.5px var(--bp-i
 .fig-l { font-family: var(--f-tech); font-size: 11.5px; letter-spacing: .04em; color: var(--muted); }
 .txt h3, .mid h3 { margin: 0; font-family: var(--f-display); font-stretch: 112%; font-weight: 800; font-size: clamp(1.45rem, 2.5vw, 1.95rem); line-height: 1.1; text-wrap: balance; }
 .desc { margin: 0; }
-.desc + .desc { margin-top: .75em; }
+.txt .goto { margin-top: 0; padding-top: 0; }
 .hl { margin: 0; padding: 0; list-style: none; display: grid; gap: 9px; }
 .hl li { display: grid; grid-template-columns: 16px minmax(0, 1fr); gap: 8px; font-size: .95rem; line-height: 1.5; }
 .hl li::before { content: ""; width: 8px; height: 8px; margin-top: .5em; border: 1.5px solid var(--blue); transform: rotate(45deg); }
@@ -530,6 +530,7 @@ dialog.viewer :focus-visible { outline: 2px solid var(--bp-ink); outline-offset:
       <h3>MATSOR autonomous patrol boat</h3>
       <p class="desc">An uncrewed surface vessel that patrols a sea area, detects and tracks vessels and underwater objects, and reports them to a human operator. Developed as a team at EHM Precision OÜ.</p>
       <p class="desc">Made for the Baltic Marine Watchdog Challenge run by Vinnova, Sweden&#x27;s innovation agency. The challenge looks for uncrewed vessels that can guard the cables and pipelines on the Baltic seabed, and tests them at sea in 2027 in two stages: first patrolling a busy shipping area and tracking a given vessel, then finding surface and underwater targets that nobody announced in advance.</p>
+      <a class="goto" href="https://ehm.ee/en" target="_blank" rel="noopener noreferrer" data-track="out/matsor">Project website: ehm.ee<span aria-hidden="true">&#8599;</span></a>
       <dl class="tblock">
         <div><dt>Year</dt><dd>2026</dd></div>
         <div><dt>Stage</dt><dd>Concept</dd></div>
